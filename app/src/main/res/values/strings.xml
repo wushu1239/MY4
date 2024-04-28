@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">나의 하루</string>
+    <string-array name="font_options">
+        <item>시스템 폰트</item>
+        <item>코트라 손글씨</item>
+        <item>교보문고 우선우</item>
+    </string-array>
+</resources>

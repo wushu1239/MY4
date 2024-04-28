@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_image1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/setting_white" />
+
+
+</RelativeLayout>

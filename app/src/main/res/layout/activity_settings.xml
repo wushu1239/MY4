@@ -1,0 +1,52 @@
+<!-- activity_settings.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/themeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="테마 변경:"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/fontLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/themeSpinner"
+        android:layout_marginTop="36dp"
+        android:text="폰트 변경:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/themeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/themeLabel"
+        android:padding="8dp" />
+
+    <Spinner
+        android:id="@+id/fontSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fontLabel"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="저장 및 적용" />
+
+
+</RelativeLayout>

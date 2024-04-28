@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="mcv_weekDayTextAppearance">@style/WeekDayWhite</item>
+        <item name="android:spinnerStyle">@style/LightSpinnerStyle</item>
+        <item name="mcv_dateTextAppearance">@style/WeekDayWhite</item>
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:spinnerStyle">@style/DarkSpinnerStyle</item>
+        <item name="mcv_weekDayTextAppearance">@style/WeekDayDark</item>
+        <item name="mcv_dateTextAppearance">@style/WeekDayDark</item>
+    </style>
+
+    <style name="DarkSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@color/spinnerBackgroundDark</item>
+    </style>
+    <style name="LightSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@color/spinnerBackgroundLight</item>
+    </style>
+
+    <style name="size" parent="@style/TextAppearance.MaterialCalendarWidget.WeekDay">
+        <item name="android:textSize">30dp</item>
+
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="size2" parent="@style/TextAppearance.MaterialCalendarWidget.WeekDay">
+        <item name="android:textSize">20dp</item>
+
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WeekDayWhite" parent="@style/TextAppearance.MaterialCalendarWidget.WeekDay">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="WeekDayDark" parent="@style/TextAppearance.MaterialCalendarWidget.WeekDay">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+
+
+</resources>
